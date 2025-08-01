@@ -3,7 +3,7 @@ const os = require('os');
 
 const server = http.createServer((req, res) => {
   res.writeHead(200);
-  res.end(`Hello from a Kubernetes!\nPod Name: ${os.hostname()}`);
+  res.end(`Hello from  Kubernetes!\nPod Name: ${os.hostname()}`);
 });
 
 server.listen(3000, () => {
