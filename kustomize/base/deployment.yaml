@@ -16,6 +16,6 @@ spec:
       - name: my-app
         image: 963665911471.dkr.ecr.us-east-1.amazonaws.com/poc-project:latest
         ports:
-        - containerPort: 80
+        - containerPort: 3000
       imagePullSecrets:
       - name: ecr-creds
