@@ -50,5 +50,5 @@ jobs:
           else
             git add kustomize/overlays/dev/kustomization.yaml
             git commit -m "Update image tag to ${{ github.sha }}"
-            git push origin HEAD:master
+            git push origin HEAD:main
           fi
