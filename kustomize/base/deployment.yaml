@@ -17,3 +17,5 @@ spec:
         image: 963665911471.dkr.ecr.us-east-1.amazonaws.com/poc-project:latest
         ports:
         - containerPort: 80
+      imagePullSecrets:
+      - name: ecr-creds
