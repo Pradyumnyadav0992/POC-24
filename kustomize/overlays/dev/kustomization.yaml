@@ -3,4 +3,4 @@ bases:
 
 images:
   - name:  963665911471.dkr.ecr.us-east-1.amazonaws.com/poc-project
-    newTag: 72b3a15270583c4ac2cba26b43cee0f54cc6dd16
+    newTag: da150b8995f5953306caaa7a041367da822e8f6e
