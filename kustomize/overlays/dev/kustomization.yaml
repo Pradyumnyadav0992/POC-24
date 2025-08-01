@@ -1,0 +1,6 @@
+bases:
+  - ../../base
+
+images:
+  - name:  963665911471.dkr.ecr.us-east-1.amazonaws.com/poc-project
+    newTag: v1.0.1
